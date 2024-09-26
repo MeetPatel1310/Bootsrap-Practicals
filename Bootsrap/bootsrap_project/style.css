@@ -1,0 +1,360 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "League Spartan", sans-serif;
+}
+
+
+
+.nav-item{
+    padding-right: 50px;
+}
+.nav-link{
+    color: black;
+}
+.navbar{
+    padding: 0;
+    
+}
+
+.nav-item:hover {
+    
+    border-bottom: 2px solid #5fcbae; /* Line below the active item */
+    font-weight: bold; /* Optional: Make active item bold */
+}
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 0;
+    align-items: center;
+}
+
+#nav img{
+    width: 50px;
+    margin-left: 50px;
+}
+
+nav{
+    
+    position: fixed ;
+    bottom: 0;
+    right: 0;
+    
+    
+}
+/* content1 */
+#content1{
+    background-image: url(images/hero4.png);
+    width: 100%;
+    height: 100vh;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:right;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 80px;
+}
+#content1 h1 {
+    font-size: 80px;
+    line-height: 64px;
+    
+    color: #027657;
+    margin-bottom: 20px;
+}
+#content1 h2 {
+    font-size: 70px;
+    line-height: 54px;
+    color: #222;
+    margin-bottom: 20px;
+    
+}
+#content1 h4 {
+    font-size: 40px;
+    color: #222;
+
+    padding-bottom: 15px;
+
+}
+#content1 p{
+    /* margin-top: 20px; */
+    padding-left: 5px;
+
+}
+
+
+#features{
+    display: flex;
+    justify-content: space-evenly;
+    /* column-gap: 30px; */
+    /* align-content: center; */
+    
+}
+
+#features .col-2{
+    margin-top: 40px;
+    padding: 10px;
+    width: 220px;
+    /* flex-basis: 20%; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center;
+    border: 1px solid #5fcbae;
+    /* box-shadow: 20px 10px 5px rgb(217, 227, 231); */
+}
+#features .col-2 img{
+    margin: 20px 0px;
+}
+
+
+#featuresproducts .col-12{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+
+#products .col-3{
+    display: flex;
+    flex-direction: column;
+    
+    /* align-items: center; */
+    justify-content: center;
+    width: 250px;
+    border: 1px solid #5fcbae;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+#products{
+    justify-content: space-evenly;
+}
+#products .col-3 img{
+    width: 200px;
+    align-self: center;
+    margin-top: 20px;
+    border-radius: 16px;
+}
+#products .col-3> p{
+    padding-left: 16px;
+    padding-top: 5px;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+#products .col-3>h6{
+    padding-left: 16px;
+    padding-top: 2px;
+    margin-bottom: 0px;
+    font-size: small;
+}
+
+
+#repaireservice{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background-image: url(images/banner/b2.jpg);
+    padding: 50px 0px;
+    margin-bottom: 20px;
+    /* justify-content: center; */
+}
+
+#repaireservice p{
+    color: white;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+#repaireservice h1{
+    color: white;
+}
+#repaireservice button{
+    border-radius: 10px;
+    background-color: aliceblue;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+
+
+
+#deals{
+    justify-content: center;
+    
+    /* width: 1170; */
+    column-gap: 30px;
+}
+
+
+#deals .col-6{
+    display: flex;
+    width: 570px;
+    /* flex-basis: 50%; */
+    flex-direction: column;
+    justify-content: center;
+    /* gap: 50px; */
+    /* align-self: center; */
+    color: white !important;
+    background-repeat: no-repeat;
+    padding: 50px 30px;
+    /* margin-right: 30px; */
+    margin-bottom: 30px;
+}
+#leftcol-6{
+    background-image: url(images/banner/b17.jpg);
+    background-size: cover;
+}
+#rightcol-6{
+    background-image: url(images/banner/b10.jpg);
+    background-size: cover;
+}
+#deals .col-6 button{
+    padding: 8px 20px;
+    
+    background-color: inherit;
+    border: none;
+    border: 1px solid aliceblue;
+    color: aliceblue;
+    margin-top: 5px;
+   
+}
+#deals .col-6 button:hover{
+    background-color:#05926c
+}
+
+#deals .col-6 p{
+    margin-bottom: 4px;
+}
+
+
+.seasonalsale{
+    justify-content: center;
+    column-gap: 30px;
+}
+.seasonalsale .col-4{
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: azure;
+    width: 360px;
+    height: 200px;
+    background-size: cover;
+    /* margin-right: 30px; */
+    margin-bottom: 30px;
+}
+.leftcol-4{
+    background-image: url(images/banner/b7.jpg);
+}
+.middlecol-4{
+    background-image: url(images/banner/b4.jpg);
+}
+.rightcol-4{
+    background-image: url(images/banner/b18.jpg);
+}
+
+#signupform{
+    align-items: center;
+    padding: 60px 100px;
+    
+    background-image: url(images/about/banner.png);
+    /* margin-bottom: 50px; */
+
+}
+.signupoffer{
+    color: white;
+}
+.signupoffer>p{
+    font-weight: bold;
+}
+.signupoffer span{
+    color: goldenrod;
+}
+.signupemail{
+    display: flex;
+    justify-content: end;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+.signupemail> input,button{
+    padding: 14px 20px;
+    border: none;
+    margin: 0px;
+    border-radius: 5px;
+}
+.signupemail button{
+    background-color: #05926c;
+}
+
+/* .footer .col-4 img{
+    padding: 30px;
+} */
+ .footer{
+    padding-top: 50px;
+    justify-content: space-evenly;
+    background-color:rgb(250, 244, 235);
+ }
+.footer .img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer .aboutinfo li{
+    list-style: none;
+}
+.footer .aboutinfo li a{
+    text-decoration: none;
+    color: #465b52;
+    line-height: 35px;
+    
+}
+.footer .aboutinfo ul{
+    padding-left: 0px;
+}
+.footer .aboutinfo li a:hover{
+    color: #39ae8f;
+}
+
+.aboutinfo .col-6{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.installapp{
+    
+    padding-left: 50px;
+    
+    line-height: 30px;
+}
+
+.installapp a img{
+    
+    margin-right: 5px;
+    margin-bottom: 10px;
+
+}
+
+.contact .col-12{
+    line-height: 20px;
+    color: #465b52;
+    padding-left: 50px;
+}
+.contact .col-12 span{
+    font-size: bold;
+    color: #222;
+}
+.contact .col-12 h4{
+    font-weight: 700;
+    /* padding-bottom: 10px; */
+}
+.contact .col-12 p i{
+    padding-right: 4px;
+    cursor: pointer;
+}
